@@ -1,0 +1,19 @@
+{
+  "verifiedAt": "2026-09-12T11:35:52.8289666+08:00",
+  "document": "配置指南.md",
+  "documentSha256": "28fc6d5174d44fdecbbe7c885afa0feb900c220ff266e91331460b3e8d87326c",
+  "documentInspection": "passed",
+  "expectedContentValidation": "passed",
+  "parsedPowerShellBlocks": 12,
+  "parsedJsonBlocks": 2,
+  "parsedTomlBlocks": 1,
+  "relativeAssetLinksVerified": 1,
+  "assetHashesVerified": 9,
+  "packageFilesScannedBeforeThisReport": 14,
+  "secretEqualityScan": "passed; no configured API key appears in package contents",
+  "sourceIdentityScan": "passed; no source username, absolute user path, or actual SID",
+  "excludedFileScan": "passed; no source credential text, login files, user binding, or backups",
+  "paidInferenceCalls": 0,
+  "installationSnippetsExecuted": false,
+  "targetMachineVerification": "Follow section 7 after installation; not performed on another machine"
+}

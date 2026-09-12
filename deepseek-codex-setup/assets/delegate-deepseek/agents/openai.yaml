@@ -1,0 +1,4 @@
+interface:
+  display_name: "DeepSeek 委派助手"
+  short_description: "主动识别适合委派的长上下文和重复工作，经同意后限定权限交给 DeepSeek"
+  default_prompt: "使用 $delegate-deepseek 评估当前任务中适合交给 DeepSeek 的部分，并向我提出具体委派建议。"

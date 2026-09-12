@@ -1,0 +1,15 @@
+{
+  "defaultRoute": "deepseek-flash",
+  "routes": {
+    "deepseek-flash": {
+      "description": "DeepSeek 官方 Flash 子代理；默认只读，可由主代理在用户批准的任务范围内授权工作区写入及命令执行。",
+      "provider": "deepseek",
+      "providerName": "DeepSeek",
+      "model": "deepseek-flash",
+      "contextWindow": 1000000,
+      "baseUrl": "https://api.deepseek.com",
+      "envKey": "DEEPSEEK_API_KEY",
+      "maxAccess": "workspace-write"
+    }
+  }
+}

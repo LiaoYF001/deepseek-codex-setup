@@ -1,0 +1,9 @@
+subagentapi.txt
+.env
+.env.*
+!.env.example
+auth.json
+credential-owner.json
+broker.json
+*.bak
+.codex/

@@ -1,0 +1,4 @@
+interface:
+  display_name: "检查 DeepSeek 最新模型"
+  short_description: "核对最新模型、别名版本、价格与账号可用性，按明确指令切换全局路线"
+  default_prompt: "使用 $check-deepseek-models 检查 DeepSeek 最新模型，与我的全局 Broker 路线比较；先报告候选，不修改配置。"

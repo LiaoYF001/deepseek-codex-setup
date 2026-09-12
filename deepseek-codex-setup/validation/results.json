@@ -1,0 +1,34 @@
+{
+  "verifiedAt": "2026-09-12T11:30:45.0353173+08:00",
+  "scope": "Portable source assets and offline fixtures only; no live settings changed",
+  "quickValidate": {
+    "check-deepseek-models": "passed",
+    "delegate-deepseek": "passed"
+  },
+  "powerShellParse": [
+    "check_models.ps1",
+    "DeepSeekModelTools.psm1",
+    "set_route_model.ps1",
+    "test-skills.ps1"
+  ],
+  "offlineAssertions": 54,
+  "offlineResult": "passed",
+  "realCredentialReads": 0,
+  "providerRequests": 0,
+  "paidInferenceCalls": 0,
+  "portabilityScan": "passed: assets contain no source username, absolute Windows drive path, concrete SID, or key",
+  "differencesFromInstalledSkills": [
+    "check-deepseek-models/SKILL.md: resolve PowerShell via PATH or current-user runtime",
+    "DeepSeekModelTools.psm1: validate canonical Windows SID with SecurityIdentifier parser and preserve exact identity comparison",
+    "PowerShell module, entrypoints and offline test: require 7.2 minimum for HashData/ToHexString support; recommend 7.4 or later"
+  ],
+  "notVerified": [
+    "Fresh installation on another physical machine",
+    "Codex restart and new-task discovery on another machine",
+    "Provider model availability or paid inference"
+  ],
+  "minimumPowerShellVersion": "7.2",
+  "recommendedPowerShellVersion": "7.4 or later",
+  "syntaxReverifiedAt": "2026-09-12T11:33:32.436303+08:00",
+  "offlineTestsAfterVersionDeclarationChange": "Not rerun: only minimum-version declarations and documentation changed; previous 54 assertions remain applicable"
+}
