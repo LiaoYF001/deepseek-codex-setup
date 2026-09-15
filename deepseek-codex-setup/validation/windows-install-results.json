@@ -1,0 +1,8 @@
+{
+  "verifiedAt": "2026-09-15T22:30:08.5224494+08:00",
+  "onlyCodexBinChanged": true,
+  "mainConfigUnchanged": true,
+  "versionProbe": "codex-cli 0.154.0-alpha.6.2",
+  "repeatChanged": false,
+  "scope": "Local installed launcher; no provider calls in these installation checks"
+}

@@ -1,0 +1,222 @@
+{
+  "passed": 54,
+  "failed": 0,
+  "results": [
+    {
+      "name": "check returns account model IDs",
+      "status": "passed"
+    },
+    {
+      "name": "checking never changes config bytes",
+      "status": "passed"
+    },
+    {
+      "name": "checking creates no config backup or side effects",
+      "status": "passed"
+    },
+    {
+      "name": "alternate Entra-style Windows SID accepted when exact identity matches",
+      "status": "passed"
+    },
+    {
+      "name": "alternate valid SID mismatch rejected",
+      "status": "passed"
+    },
+    {
+      "name": "alternate SID mismatch does not read credentials",
+      "status": "passed"
+    },
+    {
+      "name": "invalid Windows SID rejected by format validation",
+      "status": "passed"
+    },
+    {
+      "name": "invalid Windows SID rejected by format validation",
+      "status": "passed"
+    },
+    {
+      "name": "invalid Windows SID rejected by format validation",
+      "status": "passed"
+    },
+    {
+      "name": "invalid Windows SID rejected by format validation",
+      "status": "passed"
+    },
+    {
+      "name": "missing owner binding fails closed",
+      "status": "passed"
+    },
+    {
+      "name": "owner failure does not read credentials",
+      "status": "passed"
+    },
+    {
+      "name": "other Windows SID cannot retrieve credential",
+      "status": "passed"
+    },
+    {
+      "name": "invalid owner marker rejected",
+      "status": "passed"
+    },
+    {
+      "name": "missing credentials report fixed error",
+      "status": "passed"
+    },
+    {
+      "name": "invalid credential map/key rejected",
+      "status": "passed"
+    },
+    {
+      "name": "invalid credential map/key rejected",
+      "status": "passed"
+    },
+    {
+      "name": "invalid credential map/key rejected",
+      "status": "passed"
+    },
+    {
+      "name": "invalid credential map/key rejected",
+      "status": "passed"
+    },
+    {
+      "name": "invalid credential map/key rejected",
+      "status": "passed"
+    },
+    {
+      "name": "invalid credential map/key rejected",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP 301 sanitized/rejected",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP 302 sanitized/rejected",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP 307 sanitized/rejected",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP 401 sanitized/rejected",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP 403 sanitized/rejected",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP 429 sanitized/rejected",
+      "status": "passed"
+    },
+    {
+      "name": "HTTP 500 sanitized/rejected",
+      "status": "passed"
+    },
+    {
+      "name": "network exceptions never expose raw errors or credentials",
+      "status": "passed"
+    },
+    {
+      "name": "malformed response/model ID rejected",
+      "status": "passed"
+    },
+    {
+      "name": "malformed response/model ID rejected",
+      "status": "passed"
+    },
+    {
+      "name": "malformed response/model ID rejected",
+      "status": "passed"
+    },
+    {
+      "name": "malformed response/model ID rejected",
+      "status": "passed"
+    },
+    {
+      "name": "malformed response/model ID rejected",
+      "status": "passed"
+    },
+    {
+      "name": "explicit model switch succeeds",
+      "status": "passed"
+    },
+    {
+      "name": "backup preserves exact original bytes",
+      "status": "passed"
+    },
+    {
+      "name": "switch changes target model only, preserving all other routes/fields",
+      "status": "passed"
+    },
+    {
+      "name": "documented context change supported explicitly",
+      "status": "passed"
+    },
+    {
+      "name": "unavailable model leaves config unchanged",
+      "status": "passed"
+    },
+    {
+      "name": "stale expected model is rejected",
+      "status": "passed"
+    },
+    {
+      "name": "nonofficial evidence URL rejected",
+      "status": "passed"
+    },
+    {
+      "name": "other providers cannot be changed",
+      "status": "passed"
+    },
+    {
+      "name": "authentication failure blocks mutation",
+      "status": "passed"
+    },
+    {
+      "name": "relative global config override rejected",
+      "status": "passed"
+    },
+    {
+      "name": "failed postwrite validation triggers rollback",
+      "status": "passed"
+    },
+    {
+      "name": "rollback restores exact original bytes",
+      "status": "passed"
+    },
+    {
+      "name": "temporary files cleaned after rollback",
+      "status": "passed"
+    },
+    {
+      "name": "external edit during postwrite validation reports conflict",
+      "status": "passed"
+    },
+    {
+      "name": "rollback never overwrites detected external edit",
+      "status": "passed"
+    },
+    {
+      "name": "temporary files cleaned after external conflict",
+      "status": "passed"
+    },
+    {
+      "name": "second process acquired fixture config lock",
+      "status": "passed"
+    },
+    {
+      "name": "concurrent helper cannot enter active config transaction",
+      "status": "passed"
+    },
+    {
+      "name": "lock conflict stops before credentials/network query",
+      "status": "passed"
+    },
+    {
+      "name": "lock conflict preserves original config",
+      "status": "passed"
+    }
+  ]
+}

@@ -11,5 +11,6 @@
       "envKey": "DEEPSEEK_API_KEY",
       "maxAccess": "workspace-write"
     }
-  }
+  },
+  "workspaceRoots": []
 }

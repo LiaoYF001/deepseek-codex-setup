@@ -1,0 +1,52 @@
+{
+  "verifiedAt": "2026-09-15T14:32:56.267Z",
+  "provider": "deepseek",
+  "model": "deepseek-flash",
+  "backend": "app_server",
+  "codexVersion": "0.154.0-alpha.6.2",
+  "brokerVersion": "0.1.1",
+  "realDeepSeekWorkerTasks": 2,
+  "cases": [
+    {
+      "mode": "ro",
+      "status": "completed",
+      "cwdMatchedPreflight": true,
+      "executionCount": 1,
+      "exitCodes": [
+        0
+      ],
+      "contentVerified": true,
+      "approvalPolicy": "on-request",
+      "sandbox": "read-only",
+      "files": [
+        "input.txt"
+      ]
+    },
+    {
+      "mode": "rw",
+      "status": "completed",
+      "cwdMatchedPreflight": true,
+      "executionCount": 3,
+      "exitCodes": [
+        0,
+        0,
+        0
+      ],
+      "contentVerified": true,
+      "approvalPolicy": "on-request",
+      "sandbox": "workspace-write",
+      "files": [
+        "input.txt",
+        "result.txt"
+      ]
+    }
+  ],
+  "calculationResult": "144",
+  "controllerObservedRejections": 0,
+  "evidence": "Controller checked real files and selected actual rollout command outputs; no raw approval-RPC capture",
+  "limits": [
+    "Two fixture directories on one Windows machine",
+    "No cross-directory writes, network commands or elevation tested",
+    "Existing cached connections need reload"
+  ]
+}

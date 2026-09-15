@@ -1,0 +1,107 @@
+{
+  "suite": "windows-broker-launcher",
+  "passed": 25,
+  "failed": 0,
+  "checks": [
+    {
+      "name": "install_preserves_config_fields_and_exact_backups",
+      "status": "passed"
+    },
+    {
+      "name": "idempotent_install_does_not_write_or_create_backup",
+      "status": "passed"
+    },
+    {
+      "name": "launcher_only_adds_unelevated_and_keeps_protocol_clean",
+      "status": "passed"
+    },
+    {
+      "name": "minimal_app_server_and_version_supported",
+      "status": "passed"
+    },
+    {
+      "name": "broker_011_exact_app_server_contract_preserves_guards",
+      "status": "passed"
+    },
+    {
+      "name": "exit_code_propagates",
+      "status": "passed"
+    },
+    {
+      "name": "cmd_wrapper_handles_unicode_location_and_exit_status",
+      "status": "passed"
+    },
+    {
+      "name": "reject_exec",
+      "status": "passed"
+    },
+    {
+      "name": "reject_app-server_-c_windows.sandbox=\"disabled\"",
+      "status": "passed"
+    },
+    {
+      "name": "reject_app-server_--listen_tcp://127.0.0.1:1",
+      "status": "passed"
+    },
+    {
+      "name": "reject_app-server_--dangerously-bypass-approvals-and-sandbox",
+      "status": "passed"
+    },
+    {
+      "name": "reject_--version_--sandbox_danger-full-access",
+      "status": "passed"
+    },
+    {
+      "name": "settings_fallback_works_without_path_or_managed_root",
+      "status": "passed"
+    },
+    {
+      "name": "managed_package_resolution_precedes_settings_fallback",
+      "status": "passed"
+    },
+    {
+      "name": "npm_platform_package_resolves_for_launcher_and_installer",
+      "status": "passed"
+    },
+    {
+      "name": "npm_global_shim_without_managed_root_resolves_without_execution",
+      "status": "passed"
+    },
+    {
+      "name": "installer_discovers_current_managed_bin_layout",
+      "status": "passed"
+    },
+    {
+      "name": "installer_discovers_node_and_codex_from_current_path",
+      "status": "passed"
+    },
+    {
+      "name": "missing_executable_reports_fixed_error_without_stdout",
+      "status": "passed"
+    },
+    {
+      "name": "spawn_failure_reports_fixed_error_and_127",
+      "status": "passed"
+    },
+    {
+      "name": "custom_codex_home_and_config_override_are_respected",
+      "status": "passed"
+    },
+    {
+      "name": "default_appdata_config_used_when_environment_override_absent",
+      "status": "passed"
+    },
+    {
+      "name": "unsafe_batch_path_rejected_without_config_changes",
+      "status": "passed"
+    },
+    {
+      "name": "malformed_config_fails_without_changes",
+      "status": "passed"
+    },
+    {
+      "name": "wrong_node_executable_rejected_without_config_changes",
+      "status": "passed"
+    }
+  ]
+}

@@ -1,0 +1,47 @@
+{
+  "kind": "Local isolated sandbox tests with loopback mock provider",
+  "codexVersion": "0.154.0-alpha.6.2",
+  "windowsSandbox": "unelevated",
+  "externalProviderRequests": 0,
+  "cases": [
+    {
+      "name": "ro-read",
+      "access": "read-only",
+      "finished": true,
+      "approvalRequests": 0,
+      "commands": [
+        {
+          "status": "completed",
+          "exitCode": 0
+        }
+      ],
+      "outputFileExists": false
+    },
+    {
+      "name": "rw-write",
+      "access": "workspace-write",
+      "finished": true,
+      "approvalRequests": 0,
+      "commands": [
+        {
+          "status": "completed",
+          "exitCode": 0
+        }
+      ],
+      "outputFileExists": true
+    },
+    {
+      "name": "ro-write",
+      "access": "read-only",
+      "finished": true,
+      "approvalRequests": 0,
+      "commands": [
+        {
+          "status": "failed",
+          "exitCode": 1
+        }
+      ],
+      "outputFileExists": false
+    }
+  ]
+}

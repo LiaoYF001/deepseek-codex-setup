@@ -1,0 +1,118 @@
+{
+  "passed": 28,
+  "failed": 0,
+  "results": [
+    {
+      "name": "merge_preserves_fields_and_original_backup",
+      "status": "passed"
+    },
+    {
+      "name": "exact_idempotency_retains_file_hash_and_timestamp",
+      "status": "passed"
+    },
+    {
+      "name": "ancestor_covers_child_without_write",
+      "status": "passed"
+    },
+    {
+      "name": "sibling_prefix_requires_its_own_root",
+      "status": "passed"
+    },
+    {
+      "name": "junction_alias_is_canonical_and_idempotent",
+      "status": "passed"
+    },
+    {
+      "name": "existing_junction_root_covers_real_directory",
+      "status": "passed"
+    },
+    {
+      "name": "missing_roots_can_be_initialized",
+      "status": "passed"
+    },
+    {
+      "name": "null_roots_can_be_initialized",
+      "status": "passed"
+    },
+    {
+      "name": "malformed_json",
+      "status": "passed"
+    },
+    {
+      "name": "array_document",
+      "status": "passed"
+    },
+    {
+      "name": "roots_string",
+      "status": "passed"
+    },
+    {
+      "name": "root_not_string",
+      "status": "passed"
+    },
+    {
+      "name": "duplicate_roots",
+      "status": "passed"
+    },
+    {
+      "name": "relative_existing_root",
+      "status": "passed"
+    },
+    {
+      "name": "invalid_character_existing_root",
+      "status": "passed"
+    },
+    {
+      "name": "deleted_existing_root_preserved_with_new_root_and_idempotency",
+      "status": "passed"
+    },
+    {
+      "name": "drive_root_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "user_home_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "home_junction_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "relative_workspace_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "wildcard_workspace_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "missing_workspace_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "file_workspace_rejected",
+      "status": "passed"
+    },
+    {
+      "name": "inaccessible_workspace_rejected_without_mutation",
+      "status": "passed"
+    },
+    {
+      "name": "inaccessible_existing_root_preserved_with_new_root_and_idempotency",
+      "status": "passed"
+    },
+    {
+      "name": "environment_override_selects_only_fixture_config",
+      "status": "passed"
+    },
+    {
+      "name": "default_appdata_selects_only_fixture_config",
+      "status": "passed"
+    },
+    {
+      "name": "concurrent_helpers_preserve_both_additions",
+      "status": "passed"
+    }
+  ]
+}
