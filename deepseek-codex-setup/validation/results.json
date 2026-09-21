@@ -32,7 +32,7 @@
   ],
   "minimumPowerShellVersion": "7.2",
   "recommendedPowerShellVersion": "7.4 or later",
-  "syntaxReverifiedAt": "2026-09-15T22:39:18.4540733+08:00",
+  "syntaxReverifiedAt": "2026-09-21T10:46:09.4891118+08:00",
   "workspacePreflightCases": 28,
   "workspacePreflightResult": "passed",
   "offlineSuites": [
@@ -64,7 +64,7 @@
     }
   ],
   "fixtureCleanup": "Portable model and workspace-preflight fixtures cleaned; separate diagnostic fixtures remain outside the package",
-  "delegationAssetSync": "Directory preflight and Windows command-rejection workflow synced with personal skill",
+  "delegationAssetSync": "Global default access and bounded network handoff workflow synced with personal skill and AGENTS",
   "brokerTemplateWorkspaceRoots": "Empty array; only task-required precise directories are added during authorized delegation",
   "nodeSyntax": "launch-broker-codex.mjs passed",
   "windowsLauncherCases": 25,
@@ -72,5 +72,9 @@
   "windowsSandboxCases": 3,
   "windowsSandboxResult": "passed; ordinary reads and writes work, read-only writes remain blocked",
   "separateInstallationReport": "windows-install-results.json",
-  "separateLiveProviderReport": "deepseek-live-results.json"
+  "separateLiveProviderReport": "deepseek-live-results.json",
+  "permissionPolicyUpdatedAt": "2026-09-21",
+  "controllerDefaultAccess": "Explicit workspace-write; explicit read-only tasks remain read-only; Broker omitted-access default unchanged",
+  "networkHandoffReport": "network-handoff-results.json",
+  "permissionPolicyReview": "passed: local edit, explicit read-only and network-report handoff scenarios"
 }

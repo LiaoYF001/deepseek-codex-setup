@@ -31,6 +31,8 @@ pwsh -NoProfile -NonInteractive -ExecutionPolicy Bypass -File "<解压目录>\va
 
 ## 静态检查与验证边界
 
+2026-09-21 增加 `network-handoff-results.json`：主代理仅把已授权的一个共享文件复制到独立本地目录并校验一致；实际 Codex 在保留 `workspace-write`、`unelevated`、`on-request` 的条件下成功校验副本并写本地结果。原共享文件未修改；只有本机回环模拟响应，没有外部推理。该测试验证本地材料交接，不声称直接网络访问已开放。
+
 两个技能通过 `skill-creator` 的 `quick_validate.py`；四个技能脚本、两个测试脚本及 Windows 安装脚本通过 PowerShell 语法解析，Node 启动器通过语法检查。资产扫描检查源用户路径、密钥模式和禁止打包的文件；扫描未读取真实密钥。新增目录预检查 helper 与个人技能同步，委派技能增加 Windows 故障停止规则，`agents/openai.yaml` 保留，模型检查技能的便携实现保持原样。
 
 这些结果证明便携资产和本机离线逻辑通过检查，不代表其他实体机器已经完成安装。真实 DeepSeek 验收记录及范围见配置指南第 7.4 节；目标机器仍须按指南完成安装、重启、新任务发现和连接加载验证。

@@ -1,0 +1,22 @@
+{
+  "kind": "isolated local handoff verification",
+  "codexVersion": "codex-cli 0.154.0-alpha.6.2",
+  "access": "workspace-write",
+  "windowsSandbox": "unelevated",
+  "approvalPolicy": "on-request",
+  "copiedFileCount": 1,
+  "externalProviderCalls": 0,
+  "loopbackResponseCount": 2,
+  "approvalRequests": 0,
+  "commandCount": 1,
+  "exitCodes": [
+    0
+  ],
+  "commandOutputConfirmed": true,
+  "resultConfirmed": true,
+  "finished": true,
+  "sameHash": true,
+  "copyReadOnly": true,
+  "passed": true,
+  "sameHashAfterTest": true
+}

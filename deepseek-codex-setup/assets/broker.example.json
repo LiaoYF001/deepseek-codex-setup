@@ -2,7 +2,7 @@
   "defaultRoute": "deepseek-flash",
   "routes": {
     "deepseek-flash": {
-      "description": "DeepSeek 官方 Flash 子代理；默认只读，可由主代理在用户批准的任务范围内授权工作区写入及命令执行。",
+      "description": "DeepSeek 官方 Flash 子代理；主代理按个人规则默认显式选择 workspace-write，明确只读任务使用 read-only，操作仍限于用户批准范围。",
       "provider": "deepseek",
       "providerName": "DeepSeek",
       "model": "deepseek-flash",
